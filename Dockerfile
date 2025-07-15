@@ -22,6 +22,6 @@ RUN echo "DATABASE_URL=${DATABASE_URL}"
 RUN npm run prisma:generate && npm run build && npm run prisma:migrate:prod
 
 # Expose the port your app runs on
-EXPOSE 3344
+EXPOSE 3345
 
 CMD [" "]

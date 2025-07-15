@@ -32,10 +32,13 @@
     "prisma-resolve": "prisma migrate resolve --applied 20250321170528_optional_mint_address --schema libs/db/prisma/schema.prisma"
   },
   "dependencies": {
+    "@nestjs/axios": "^4.0.0",
+    "@nestjs/cache-manager": "^3.0.1",
     "@nestjs/common": "^11.0.1",
     "@nestjs/config": "^4.0.2",
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
+    "@nestjs/schedule": "^6.0.0",
     "@nestjs/swagger": "^11.2.0",
     "@prisma/client": "^6.10.0",
     "class-transformer": "^0.5.1",

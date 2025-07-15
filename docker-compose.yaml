@@ -1,13 +1,13 @@
 services:
-  betski-db:
+  sample-db:
     image: postgres:15
-    container_name: betski-db
+    container_name: sample-db
     ports:
-      - "5481:5432"
+      - "5482:5432"
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: betski_db
+      POSTGRES_DB: sample_db
     volumes:
       - postgres-data:/var/lib/postgresql/data 
 volumes:
